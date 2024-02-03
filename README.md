@@ -3,7 +3,8 @@ Windows users for an Azure Deployment, click the Windows icon:
 [![image](https://github.com/vitruveo-validators/aws/assets/157662422/8df34166-0cc1-470c-a853-c61cfe582081)](https://github.com/vitruveo-validators/aws/blob/main/Windows)
 [![image](https://github.com/vitruveo-validators/aws/assets/157662422/935268c1-49fb-484d-aec5-fc41dd3af376)](https://github.com/vitruveo-validators/aws/blob/main/Windows)
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/5b84a230-3354-4816-9928-8b13e916b6d2)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/460ad52b-c6a2-42ba-bb77-dea050eb5bb0)
+
 
 
 Mac users for an Azure Deployment, click the Mac icon:
