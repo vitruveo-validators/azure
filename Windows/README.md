@@ -1,5 +1,6 @@
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/922350b0-0035-463d-b172-31cb97ae42a9)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/d5ddfd24-2b07-4b75-aba9-de7ecd5a4518)
+
 
 
 
