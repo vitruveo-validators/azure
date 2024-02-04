@@ -6,7 +6,7 @@
 
 **START HERE - prerequisites**
 
-**STEP 1** First create your AWS account - https://console.aws.amazon.com/
+**STEP 1** First create your Azure account - [https://console.aws.amazon.com/](https://portal.azure.com/)
 
 **STEP 2** Create an IAM Service Account in AWS - https://github.com/vitruveo-validators/aws/blob/main/iam-account 
 
