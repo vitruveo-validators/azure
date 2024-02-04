@@ -1,5 +1,5 @@
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/0958a3ff-2d31-4b30-b0cd-df5381c4b813)
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/7ed959e3-8774-4486-8ade-b9f466402eb5)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/78a51658-e769-4dca-9a1a-3002e7278163)
+
 
 **START HERE - prerequisites**
 
