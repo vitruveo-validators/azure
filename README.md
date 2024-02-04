@@ -1,6 +1,6 @@
 Windows users for an Azure Deployment, click the Windows icon:
 
-[![image](https://github.com/vitruveo-validators/azure/assets/157662422/d6c0b3e3-eb35-4bd4-a44c-69a5b1dc3e12)](https://github.com/vitruveo-validators/aws/blob/main/Windows)
+[![image](https://github.com/vitruveo-validators/azure/assets/157662422/d6c0b3e3-eb35-4bd4-a44c-69a5b1dc3e12)](https://github.com/vitruveo-validators/Windows/blob/main/Windows)
 
  Mac users for an Azure Deployment, click the Mac icon:
 
