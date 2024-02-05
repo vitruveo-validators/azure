@@ -1,6 +1,6 @@
 variable "resource_group_location" {
   type        = string
-  description = "Which Azure Region will you deploy to? i.e. eastus or swedencentral. Run a command found in the documentation to discovery Azure region names"
+  description = "Which Azure Region will you deploy to? i.e. eastus or swedencentral. Run a command found in the documentation to discovery Azure region values."
   
 }
 
@@ -12,5 +12,5 @@ variable "resource_group_name_prefix" {
 
 variable "vm_size" {
   type        = string
-  description = "Select the size of the Validator - i.e. Standard_F4s_v2 which is a 4 core, 8G RAM costing $123/month"
+  description = "Select the size of your Validator - i.e. Standard_F4s_v2 which is a 4 core, 8g RAM costing $123/month"
 }
