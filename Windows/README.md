@@ -45,7 +45,7 @@ Type **cd azure** and hit **enter**
 
 
 
-**4. Download Azure CLI by click the following image**
+**4. Download Azure CLI by clicking the following image**
 
 [![image](https://github.com/vitruveo-validators/azure/assets/157662422/746c64ed-32a0-48e5-9bf6-c57bf6e8ed8b)
 ](https://aka.ms/installazurecliwindowsx64)
