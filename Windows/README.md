@@ -61,12 +61,14 @@ Type **cd AWS** and hit **enter**
 a) Right click on aws-main.zip and select 'Extract All'
 
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/90a2a938-f38e-4146-89fe-57e9861cc178)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/0cac875b-743c-4ca7-afa5-e65cd9075604)
 
 
-b) Change the location of the extracted file by typing c:\aws\ and click 'Extract'
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/89e886d8-e41e-44d0-b077-47f35dcb3a34)
+b) Change the location of the extracted file by typing c:\AWS\ and click 'Extract'
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/439f3f52-487c-4ecc-812d-24b513682525)
+
 
 c) Install AWS CLI by running the file 'AWSCLIV2.msi' and selecting all defaults
 
