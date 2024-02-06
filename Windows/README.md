@@ -90,23 +90,28 @@ e) Type c:\azure\azure-main\ and then select 'Extract' **NOTE** - make sure its 
 
 **6. Authorizing against your Azure account**
 
-a) Change to the Azure-main directory by typing ** cd c:\aws\aws-main** and hit enter
+a) Change to the Azure-main directory by typing ** cd c:\azure\azure-main** and hit enter
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/3ed06c9d-76c7-4bc6-901b-87b3ad3130e8)
 
 
-b) Authorize to your AWS account using your secret keys by typing **aws configure** and hitting enter
+b) Authorize to your Azure account using email and password by typing **az login** and hitting enter
 
-c) Add your access key from your saved notepad that was completed in STEP 2
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/bc68e0df-b0b8-49d6-bb74-4692d0e326ce)
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/1bb6fe01-0cda-4c9e-bd71-72c0d6e68988)
-
-d)Add your secret access key from your saved notepad that was completed in STEP 2
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/e9106582-2708-424c-94a3-56000b3affe7)
+c) A web browser should open for you to enter your email account for Azure and password that was created in STEP 1
 
 
-c) Hit enter twice adding no text for the default options
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/b60f3466-71cf-466a-b75c-0f7ec8fdd4dc)
+
+d) Once successful, you should see this windows and it can be closed
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/cf3ff8bf-94c1-4d81-85b1-dbbaf21ad675)
+
+e) Once successful 
+
+e) Hit enter twice adding no text for the default options
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/5032ce15-3a2b-48c7-86eb-026c236b6188)
 
