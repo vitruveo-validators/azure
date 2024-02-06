@@ -49,7 +49,8 @@ Type **cd AWS** and hit **enter**
 
 **4. Download Azure CLI by click the following image**
 
-[![image](https://github.com/vitruveo-validators/aws/assets/157662422/2d1bcbb5-e29b-459b-9289-90abd25e5086)](https://aka.ms/installazurecliwindowsx64)
+[![image](https://github.com/vitruveo-validators/azure/assets/157662422/746c64ed-32a0-48e5-9bf6-c57bf6e8ed8b)
+](https://aka.ms/installazurecliwindowsx64)
 
 
 **5. On your PC, open File Explorer and navigate to your Downloads folder**
