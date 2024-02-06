@@ -80,9 +80,10 @@ d) Navigate to the azure-main folder - c:\azure\azure-main - right click on the 
 
 
 
-e) Type c:\aws\aws-main\ and then select 'Extract' **NOTE** - make sure its the same as this image.
+e) Type c:\azure\azure-main\ and then select 'Extract' **NOTE** - make sure its the same as this image.
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/d4a68f2b-b898-4800-99eb-de45229d5d8b)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/68044d55-7a03-4bb4-b319-0ec12efe25ab)
+
 
 **$\color{Red}Close\ ALL\ Windows\ and\ restart\ the\ Command\ Prompt\ as\ an\ Administrator\ like\ in\ Step\ 1.$**
 
