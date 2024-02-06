@@ -40,7 +40,8 @@ Type **cd azure** and hit **enter**
 
 **3. Download Terraform Code by clicking on the image 'Download ZIP'**
 
-[![image](https://github.com/vitruveo-validators/aws/assets/157662422/6fabf047-5201-460d-a42a-93fda5564e61)](https://github.com/vitruveo-validators/azure/archive/refs/heads/main.zip)
+[![image](https://github.com/vitruveo-validators/azure/assets/157662422/0ef2634f-0d7d-4bd6-938e-8bd802a407b5)
+](https://github.com/vitruveo-validators/azure/archive/refs/heads/main.zip)
 
 
 
