@@ -23,27 +23,24 @@
 
 
 
-**2. Create a folder and download a ZIP file:**
+**2. Create a folder and download files:**
 
 Type cd\ and hit **enter**
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/051ce98d-f33f-45da-a978-724ef1cdcb3b)
 
-Type **md AWS** and hit **enter**
+Type **md azure** and hit **enter**
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/aa8675c5-38c2-412a-a86f-0fddfe137767)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/43a876df-34f8-4e7a-aad5-2003a6c34d93)
 
+Type **cd azure** and hit **enter**
 
-Type **cd AWS** and hit **enter**
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/5298746b-5661-4671-a496-4de6123904ee)
-
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/a08704d3-ab99-4b02-8e87-8508f74ee4d2)
 
 
 **3. Download Terraform Code by clicking on the image 'Download ZIP'**
 
 [![image](https://github.com/vitruveo-validators/aws/assets/157662422/6fabf047-5201-460d-a42a-93fda5564e61)](https://github.com/vitruveo-validators/azure/archive/refs/heads/main.zip)
-
 
 
 
@@ -58,14 +55,14 @@ Type **cd AWS** and hit **enter**
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/ac780075-11e3-4022-8bbe-fc4c613da768)
 
   
-a) Right click on aws-main.zip and select 'Extract All'
+a) Right click on azure-main.zip and select 'Extract All'
 
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/0cac875b-743c-4ca7-afa5-e65cd9075604)
 
 
 
-b) Change the location of the extracted file by typing c:\AWS\ and click 'Extract'
+b) Change the location of the extracted file by typing c:\azure\ and click 'Extract'
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/439f3f52-487c-4ecc-812d-24b513682525)
 
