@@ -65,16 +65,16 @@ a) Right click on azure-main.zip and select 'Extract All'
 
 b) Change the location of the extracted file by typing c:\azure\ and click 'Extract'
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/439f3f52-487c-4ecc-812d-24b513682525)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/fbde6ead-3c88-48c6-a979-432a314b5f47)
 
 
-c) Install AWS CLI by running the file 'AWSCLIV2.msi' and selecting all defaults
+c) Install Azure CLI by running the file 'azure-cli-2.57.0-x64.msi' and selecting all defaults
 
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/8fde5b4f-8803-4244-9133-bece037853c0)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/64a5235e-b66f-4c6c-8ce1-6e6069a1098c)
 
 
-d) Navigate to the aws-main folder - c:\AWS\aws-main - right click on the file 'terraform_1.7.1_windows_386.zip' and select 'Extract All'
+d) Navigate to the azure-main folder - c:\azure\azure-main - right click on the file 'terraform_1.7.1_windows_386.zip' and select 'Extract All'
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/0af0f5eb-e6e1-4380-9edc-16fdbdd60fb7)
 
