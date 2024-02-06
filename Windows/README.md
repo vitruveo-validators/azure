@@ -74,9 +74,10 @@ c) Install Azure CLI by running the file 'azure-cli-2.57.0-x64.msi' and selectin
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/64a5235e-b66f-4c6c-8ce1-6e6069a1098c)
 
 
-d) Navigate to the azure-main folder - c:\azure\azure-main - right click on the file 'terraform_1.7.1_windows_386.zip' and select 'Extract All'
+d) Navigate to the azure-main folder - c:\azure\azure-main - right click on the file 'terraform_1.7.2_windows_386.zip' and select 'Extract All'
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/0af0f5eb-e6e1-4380-9edc-16fdbdd60fb7)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/031e197e-94bf-474b-b552-4eb0c6b6a5f2)
+
 
 
 e) Type c:\aws\aws-main\ and then select 'Extract' **NOTE** - make sure its the same as this image.
