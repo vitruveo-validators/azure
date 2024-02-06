@@ -88,9 +88,9 @@ e) Type c:\azure\azure-main\ and then select 'Extract' **NOTE** - make sure its 
 **$\color{Red}Close\ ALL\ Windows\ and\ restart\ the\ Command\ Prompt\ as\ an\ Administrator\ like\ in\ Step\ 1.$**
 
 
-**6. Authorizing against your AWS account**
+**6. Authorizing against your Azure account**
 
-a) Change to the aws-main directory by typing ** cd c:\aws\aws-main** and hit enter
+a) Change to the Azure-main directory by typing ** cd c:\aws\aws-main** and hit enter
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/3ed06c9d-76c7-4bc6-901b-87b3ad3130e8)
 
