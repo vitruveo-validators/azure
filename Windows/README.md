@@ -8,11 +8,10 @@
 
 **STEP 1** First create your Azure account - [https://console.aws.amazon.com/](https://portal.azure.com/)
 
-**STEP 2** Create an IAM Service Account in AWS - https://github.com/vitruveo-validators/Azure/blob/main/iam-account 
+**STEP 2** Create a Public key and a Private key - https://github.com/vitruveo-validators/Azure/blob/main/Windows/key-pair 
 
-**STEP 3** Create a Public key and a Private key - https://github.com/vitruveo-validators/Azure/blob/main/Windows/key-pair 
+**STEP 3** Follow this document on a Windows 10 or Windows 11 with all updates installed and as a local Administrator
 
-**STEP 4** Follow this document on a Windows 10 or Windows 11 with all updates installed and as a local Administrator
 
 **$\color{Red}Review\ each\ step\ carefully\ and\ check\ your\ steps\ vs.\ the\ images.\ Don't\ rush.\$**
 
