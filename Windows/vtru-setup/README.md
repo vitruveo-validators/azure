@@ -39,7 +39,7 @@ a) Remove **<YOUR-PUBLIC-IP>** and add your Public IP that is detailed in the ou
 
 **1. Download the BASH script locally on your Validator by typing:-** 
 
-     wget  https://raw.githubusercontent.com/vitruveo-validators/aws/main/Windows/vtru-setup/vtru.sh 
+     wget https://raw.githubusercontent.com/vitruveo-validators/azure/main/Windows/vtru-setup/vtru.sh 
 
 **2. Now start the script by typing:-**
 
