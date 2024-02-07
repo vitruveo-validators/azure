@@ -2,12 +2,17 @@
 
 
 
-**This document will step you through connecting to your validator via PuTTY and installing Vitruveo validator software**
+**This document will step you through connecting to your validator and installing Vitruveo validator software**
 
 
-1. Start PuTTY by typing putty in the search bar and running the application - **NOTE don't run PuTTYgen**
+1. After deploying your Azure instance successfully review the commands in the output
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/c4469d5a-b252-4798-8fd7-c005063ed852)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/c1103c39-d349-44bb-adf6-26fbef1220f5)
+
+   chmod 400 validator.pem
+
+
+
 
 2. First step in PuTTY is to add your Private Key to the application by navigating to Credentials like in this image
 
