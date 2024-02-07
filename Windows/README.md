@@ -115,48 +115,27 @@ e) Once successful move to step 7.
 
 **7. **VERY IMPORTANT STEP** - Take your time as it needs to be done correctly**
 
-a) Click File Explorer in the task bar
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/caf95ad6-d148-4497-a8dd-4ab9d0b526ce)
+a)  Type **Terraform init** and hit enter - NOTE: This will take while
 
-b) Navigate to 'c:\AWS\aws-main'
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/36ddbe69-0b85-434f-9924-a55330dc2276)
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/36aed84e-6c45-4613-8382-61ffbce64cd7)
-
-c) Right click on the main.tf file and select 'Open with'
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/02d7de39-3ef9-4c3b-b26f-0ca840a8069b)
-
-d) **IMPORTANT**  Untick 'Always use this app to open .tf files' - then select 'Notepad' or select 'More apps, then Notepad' and 'OK'
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/7fbc8bac-a885-42ae-8402-55bea124a8a1)
-
-e) Find resource "aws_key_pair" "validator" like in this image and paste in your Public Key copied from STEP 3.
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/1edf2c09-ac25-4a06-81bb-7d21c6ab5455)
-
-f) It should look something like this and have quotes before and after Public Key
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/7b3860c1-aa8d-4c7a-849c-8a99353a51ff)
-
-g) Save and close the main.tf file
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/46d49653-4c50-4662-a476-38c6033e9a30)
+b) Copy and paste this command az account list-locations --query "sort_by([].{Location:name}, &Location)" -o table
 
 
-**8. Deploying your Validator to AWS**
+     cd Downloads 
 
-a) Navigate back to the command line that should be running. Type **Terraform init** and hit enter - NOTE: This will take while
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/aacc6357-47ad-48aa-95ca-b6aa4eb12c5c)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/2574efc1-a04c-4e9e-a54a-b3bf5644cdd8)
 
-b) Type **Terraform plan** and hit enter - make sure of 'Plan: 4 to add, 0 to change, 0 to destroy.'
+
+c) Type **Terraform plan** and hit enter
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/7e6312b7-e475-4b2c-8166-4be0e1f00e86)
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/7c0d423f-8ade-4641-bc32-1c22533e2bba)
 
-c) Type **Terraform apply -auto-approve** - make sure 'Apply complete! Resources: 4 added, 0 changed, 0 destroyed.'
+d) Type **Terraform apply -auto-approve** - make sure 'Apply complete! Resources: 4 added, 0 changed, 0 destroyed.'
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/348cf3f6-1664-4713-8cd1-2f4925687d76)
 
