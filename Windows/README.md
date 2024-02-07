@@ -123,7 +123,7 @@ a)  Type **Terraform init** and hit enter - NOTE: This will take while
 b) Copy and paste this command az account list-locations --query "sort_by([].{Location:name}, &Location)" -o table
 
 
-     cd Downloads 
+    az account list-locations --query "sort_by([].{Location:name}, &Location)" -o table
 
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/2574efc1-a04c-4e9e-a54a-b3bf5644cdd8)
