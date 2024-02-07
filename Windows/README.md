@@ -179,11 +179,11 @@ f) Make sure 'Apply complete! Resources: 10 added, 0 changed, 0 destroyed.'
 
 
 
-**Next steps in the process is to connect to your newly deployed EC2 instance and install VTRU Validator code**
+**Next steps in the process is to connect to your newly deployed Azure instance and install VTRU Validator code**
 
 
 
-https://github.com/vitruveo-validators/aws/blob/main/Windows/vtru-setup
+https://github.com/vitruveo-validators/azure/blob/main/Windows/vtru-setup
 
 
 
