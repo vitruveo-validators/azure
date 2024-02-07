@@ -92,7 +92,8 @@ e) Type c:\azure\azure-main\ and then select 'Extract' **NOTE** - make sure its 
 
 a) Change to the Azure-main directory by typing ** cd c:\azure\azure-main** and hit enter
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/3ed06c9d-76c7-4bc6-901b-87b3ad3130e8)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/56d4ec46-346a-4045-9250-fa628c667fd5)
+
 
 
 b) Authorize to your Azure account using email and password by typing **az login** and hitting enter
@@ -109,11 +110,7 @@ d) Once successful, you should see this windows and it can be closed
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/cf3ff8bf-94c1-4d81-85b1-dbbaf21ad675)
 
-e) Once successful 
-
-e) Hit enter twice adding no text for the default options
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/5032ce15-3a2b-48c7-86eb-026c236b6188)
+e) Once successful move to step 7.
 
 
 **7. **VERY IMPORTANT STEP** - Take your time as it needs to be done correctly**
