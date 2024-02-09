@@ -20,7 +20,7 @@
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/76f22190-3c3b-4144-a64c-69f47c27b531)
 
-a) Remove **<YOUR-PUBLIC-IP>** and add your Public IP that is detailed in the output and type **yes** to the question
+a) Remove **YOUR-PUBLIC-IP** and add your Public IP that is detailed in the output and type **yes** to the question
 
      ssh -i validator.pem validatoradmin@<YOUR-PUBLIC-IP> 
 
