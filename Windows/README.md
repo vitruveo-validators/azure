@@ -120,7 +120,7 @@ a)  Type **Terraform init** and hit enter - NOTE: This will take while
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/36ddbe69-0b85-434f-9924-a55330dc2276)
 
-b) Copy and paste this command az account list-locations --query "sort_by([].{Location:name}, &Location)" -o table
+b) Copy and paste the following command
 
    NOTE: This command should list all the current Azure Regions around the world. Pick a Region in this format and 
          copy it to a text file for the next steps.
