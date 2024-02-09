@@ -8,7 +8,11 @@
 
 **STEP 1** First create your Azure account - https://portal.azure.com/
 
-**STEP 2** Follow this document on a Windows 10 or Windows 11 with all updates installed and as a local Administrator 
+**STEP 2** Second, pick a Region (green dot) from this interactive site - https://datacenters.microsoft.com/globe/explore
+
+**STEP 3** Third, pick a virtual machine size or use the suggestion in this guide - https://learn.microsoft.com/en-us/azure/virtual-machines/sizes
+
+**STEP 4** Follow this document on a Windows 10 or Windows 11 with all updates installed and as a local Administrator 
 
 
 
