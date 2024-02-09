@@ -16,7 +16,8 @@
 
 **1. Download Terraform Code by click on the image 'Download ZIP'**
 
-[![image](https://github.com/vitruveo-validators/aws/assets/157662422/1a6e18db-711d-4a62-8ce6-686cb3a3fea7)](https://github.com/vitruveo-validators/aws/archive/refs/heads/main.zip)
+[![image](https://github.com/vitruveo-validators/azure/assets/157662422/24e60a58-7e02-4759-92cb-7769dc922e24)
+](https://github.com/vitruveo-validators/aws/archive/refs/heads/main.zip)
 
 
 
