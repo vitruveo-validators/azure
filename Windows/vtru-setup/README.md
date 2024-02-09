@@ -24,7 +24,8 @@ a) Remove **YOUR-PUBLIC-IP** and add your Public IP that is detailed in the outp
 
      ssh -i validator.pem validatoradmin@<YOUR-PUBLIC-IP> 
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/8f862375-b13a-4e47-a55f-48502b3e5bd3)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/5e53669a-0f64-445d-82b9-af3736b25fc2)
+
 
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/77d1dd12-24a7-4848-b9cd-1d235dc013db)
