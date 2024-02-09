@@ -10,12 +10,12 @@
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/c1103c39-d349-44bb-adf6-26fbef1220f5)
 
 
-      Icacls validator.pem /Inheritance:r
+      icacls validator.pem /Inheritance:r
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/20272bbe-d40f-4df4-a44e-565406a954f9)
 
 
-      Icacls validator.pem /Grant:r "%Username%":"(R)"
+      icacls validator.pem /Grant:r "%Username%":"(R)"
 
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/76f22190-3c3b-4144-a64c-69f47c27b531)
