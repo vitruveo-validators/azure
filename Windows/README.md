@@ -6,7 +6,7 @@
 
 **START HERE - prerequisites**
 
-**STEP 1** First create your Azure account - [https://console.aws.amazon.com/](https://portal.azure.com/)
+**STEP 1** First create your Azure account - https://portal.azure.com/
 
 **STEP 2** Follow this document on a Windows 10 or Windows 11 with all updates installed and as a local Administrator 
 
