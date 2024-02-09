@@ -138,8 +138,7 @@ a)  Type **Terraform init** and hit enter - NOTE: This can take a while
 
 b) Copy and paste the following command
 
-   NOTE: This command should list all the current Azure Regions around the world. Pick a Region in the format displayed and 
-         copy it to a text file for the next steps.
+   NOTE: This command should list all the current Azure Regions around the world. Earlier you picked a region, now from this list copy your region in this format.
     
     az account list-locations --query "sort_by([].{Location:name}, &Location)" -o table
 
