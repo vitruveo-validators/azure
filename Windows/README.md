@@ -63,7 +63,7 @@ a) Right click on azure-main.zip and select 'Extract All'
 
 
 
-b) Change the location of the extracted file by typing c:\azure\ and click 'Extract'
+b) Change the location of the extracted files by typing c:\azure\ and click 'Extract'
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/fbde6ead-3c88-48c6-a979-432a314b5f47)
 
