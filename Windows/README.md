@@ -68,7 +68,7 @@ a) Right click on azure-main.zip and select 'Extract All'
 
 
 
-b) Change the location of the extracted files by copying c:\azure\ and click 'Extract'
+b) Change the location of the extracted files by typing c:\azure\ and click 'Extract'
 
 
     c:\azure\
