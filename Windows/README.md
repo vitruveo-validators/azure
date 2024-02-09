@@ -155,6 +155,13 @@ d) Enter your Azure Virtual machine vm size here. i.e. **Standard_F4s_v2** then 
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/4283a576-3477-420c-aa0e-e925706decd6)
 
+
+**NOTE** if you receive and error about a Region not being supported like "canada" pick another region from the list like "canadacentral"
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/41c97517-cb79-4178-bf15-a76292f2b98d)
+
+
+
 e) Confirm that Plan: 10 to add, 0 to change, 0 to destroy. is displayed
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/0c07213b-a8b4-4ccb-ae01-3e8435cb6a2b)
