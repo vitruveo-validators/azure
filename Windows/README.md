@@ -146,7 +146,7 @@ e) Confirm that Plan: 10 to add, 0 to change, 0 to destroy. is displayed
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/0c07213b-a8b4-4ccb-ae01-3e8435cb6a2b)
 
-f) Now, type **Terraform apply -auto-approve** hit enter and add your predetermined region and hit enter again
+f) Copy **Terraform apply -auto-approve** and hit enter
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/6f75d613-1bcf-4920-af49-81714aa659c6)
 
