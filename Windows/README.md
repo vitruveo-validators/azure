@@ -122,7 +122,7 @@ a)  Type **Terraform init** and hit enter - NOTE: This will take while
 
 b) Copy and paste the following command
 
-   NOTE: This command should list all the current Azure Regions around the world. Pick a Region in this format and 
+   NOTE: This command should list all the current Azure Regions around the world. Pick a Region in the format displayed and 
          copy it to a text file for the next steps.
     
 
