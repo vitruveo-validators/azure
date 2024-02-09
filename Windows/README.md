@@ -100,7 +100,7 @@ e) Type c:\azure\azure-main\ and then select 'Extract' **NOTE** - make sure its 
 
 **6. Authorizing against your Azure account**
 
-a) Change to the Azure-main directory by typing ** cd c:\azure\azure-main** and hit enter
+a) Change to the Azure-main directory by typing **cd c:\azure\azure-main** and hit enter
 
     cd c:\azure\azure-main
 
