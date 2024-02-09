@@ -130,7 +130,7 @@ e) Once successful move to step 7.
 **7. **VERY IMPORTANT STEP** - Take your time as it needs to be done correctly**
 
 
-a)  Type **Terraform init** and hit enter - NOTE: This will take while
+a)  Type **Terraform init** and hit enter - NOTE: This can take a while
 
     Terraform init
 
