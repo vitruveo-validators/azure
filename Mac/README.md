@@ -8,7 +8,7 @@
 
 **STEP 3** Third, pick a virtual machine size or use the suggestion in this guide - https://learn.microsoft.com/en-us/azure/virtual-machines/sizes
 
-**STEP 4** Follow this document on a Windows 10 or Windows 11 with all updates installed and as a local Administrator 
+**STEP 4** Follow this document on an updated Mac as a local Administrator 
 
 **$\color{Red}Review\ each\ step\ carefully\ and\ check\ your\ steps\ vs.\ the\ images.\ Don't\ rush.\$**
 
