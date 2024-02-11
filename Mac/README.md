@@ -48,7 +48,7 @@ b) Select 'Install' and run through all the defaults - **NOTE:** This can take a
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/d21b0a5b-c9d3-4187-821a-5d9f73c82583)
 
-c)Install HomeBrew from the 'Downloads' folder
+c) Install HomeBrew from the 'Downloads' folder
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/d5c56272-6b9b-49e3-974f-1126820fa241)
 
