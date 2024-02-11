@@ -66,16 +66,6 @@ brew update && brew install azure-cli
      brew update && brew install azure-cli
 
 
-
-
-
-
-
-c) Run AWSCLIV2.pkg and select 'Continue' selecting all the defaults
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/b00b551e-80d1-412f-bf29-6fa8e351c191)
-
-
 e) Select 'Finder' and then the 'Downloads' directory
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/b57daf84-f64f-44b3-86da-7ae221e3436e)
@@ -84,42 +74,19 @@ e) Select 'Finder' and then the 'Downloads' directory
 
 
 
-f) In your 'Downloads' folder run 'Homebrew-4.2.6.pkg' and select 'Continue', follow all the defaults to install
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/adfc7356-ce81-4ef4-9317-d90e2787877b)
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/3bac544f-c0e5-45da-8097-57bb9cf2d26c)
-
-
 
 
 **2. Authorizing against your Azure account**
 
 a) From LaunchPad open Terminal
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/124cd1a5-df23-4a5e-a8f2-7dec918f222a)
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/7f99f329-abc2-418a-83ba-734de1df98ff)
 
 b) Type **cd Downloads** and hit enter
 
      cd Downloads 
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/2186dd91-1730-43f9-a777-77310a306682)
 
-c) Authorize to your AWS account by typing **aws configure** and hitting enter, then adding your access key from STEP 2
-
-     aws configure 
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/872bf478-c923-4ee2-b88e-f0ed53e7b370)
-
-d) Add your secret access key from STEP 2
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/6ec07a44-56ff-4e60-b13b-1830290b2ac3)
-
-e) Hit enter for the default options
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/6731e58e-b53b-4aea-aeee-1b37320439bb)
 
 
 **3. VERY IMPORTANT STEP - Take your time as it needs to be done correctly**
