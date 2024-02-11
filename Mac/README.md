@@ -46,7 +46,7 @@ a) Run 'Terminal' from LaunchPad and type **xcode-select --install** and hit ent
 
 b) Select 'Install' and run through all the defaults - **NOTE:** This can take a long time.
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/62be18be-9920-4069-9189-15700d0a7160)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/d21b0a5b-c9d3-4187-821a-5d9f73c82583)
 
 
 
