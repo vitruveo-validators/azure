@@ -13,24 +13,9 @@
 **$\color{Red}Review\ each\ step\ carefully\ and\ check\ your\ steps\ vs.\ the\ images.\ Don't\ rush.\$**
 
 
-**1. Download and install needed tools**
+**1. Download needed tools**
 
-a) Run 'Terminal' from LaunchPad and typing **xcode-select --install** and hit enter
-
-     xcode-select --install 
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/ff8c8e72-53c8-44db-a801-6c7a8e854d29)
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/01627bed-41f2-45f0-afb1-f7a65de2cffa)
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/4cfb2357-af5a-411c-b7ee-9d0e98688bf0)
-
-
-b) Select 'Install' and run through all the defaults - **NOTE:** This can take a long time.
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/62be18be-9920-4069-9189-15700d0a7160)
-
-d) Now download Homebrew' by clicking this image
+d) Download Homebrew' by clicking this image
 
 [![image](https://github.com/vitruveo-validators/aws/assets/157662422/91cabd9e-45eb-4153-a000-53de5c9672ba)](https://github.com/Homebrew/brew/releases/download/4.2.6/Homebrew-4.2.6.pkg)
 
@@ -46,24 +31,29 @@ f) Next download Terraform code by clicking this imagine
 
 
 
-**2. Open Downloads folder and install packages**
+**2. Install packages**
+
+a) Run 'Terminal' from LaunchPad and typing **xcode-select --install** and hit enter
+
+     xcode-select --install 
+
+![image](https://github.com/vitruveo-validators/aws/assets/157662422/ff8c8e72-53c8-44db-a801-6c7a8e854d29)
+
+![image](https://github.com/vitruveo-validators/aws/assets/157662422/01627bed-41f2-45f0-afb1-f7a65de2cffa)
+
+![image](https://github.com/vitruveo-validators/aws/assets/157662422/4cfb2357-af5a-411c-b7ee-9d0e98688bf0)
+
+b) Select 'Install' and run through all the defaults - **NOTE:** This can take a long time.
+
+![image](https://github.com/vitruveo-validators/aws/assets/157662422/62be18be-9920-4069-9189-15700d0a7160)
 
 
-b) Run 'Finder' and navigate to the 'Downloads' folder which should look like this
 
+
+a) From 'Finder' navigate to the 'Downloads' folder which should look like this
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/4256dc52-f566-4475-995d-f978fa20da66)
 
-
-
-
-
-e) Install Azure CLI by running this
-
-brew update && brew install azure-cli
-
-
-     brew update && brew install azure-cli
 
 
 e) Select 'Finder' and then the 'Downloads' directory
