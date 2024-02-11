@@ -57,6 +57,15 @@ c) Install Azure CLI by typing command **brew update && brew install azure-cli**
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/64de2fff-c458-44d4-b32f-95511edac70c)
 
+e) Move Terraform file to /azure-main directory
+
+
+     mv ./Downloads/terraform ./Downloads/azure-main/ 
+
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/f0422e3c-14ab-43e3-94f6-42f92706d655)
+
+
 
 a) From 'Finder' navigate to the 'Downloads' folder which should look like this
 
