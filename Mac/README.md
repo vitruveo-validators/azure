@@ -35,11 +35,12 @@ f) Next download Terraform code by clicking this imagine
 
 a) Run 'Terminal' from LaunchPad and type **xcode-select --install** and hit enter
 
-     xcode-select --install 
-
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/ff8c8e72-53c8-44db-a801-6c7a8e854d29)
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/01627bed-41f2-45f0-afb1-f7a65de2cffa)
+
+
+     xcode-select --install 
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/4cfb2357-af5a-411c-b7ee-9d0e98688bf0)
 
