@@ -52,7 +52,7 @@ f) Next download Terraform code by clicking this imagine
 b) Run 'Finder' and navigate to the 'Downloads' folder which should look like this
 
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/e8d2d0c4-aadc-4bbd-8f60-c870fc600350)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/4256dc52-f566-4475-995d-f978fa20da66)
 
 
 
