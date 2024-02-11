@@ -13,9 +13,11 @@
 **$\color{Red}Review\ each\ step\ carefully\ and\ check\ your\ steps\ vs.\ the\ images.\ Don't\ rush.\$**
 
 
-**1. Install needed tools**
+**1. Download and install needed tools**
 
 a) Run 'Terminal' from LaunchPad and typing **xcode-select --install** and hit enter
+
+     xcode-select --install 
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/ff8c8e72-53c8-44db-a801-6c7a8e854d29)
 
@@ -24,37 +26,32 @@ a) Run 'Terminal' from LaunchPad and typing **xcode-select --install** and hit e
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/4cfb2357-af5a-411c-b7ee-9d0e98688bf0)
 
 
-     xcode-select --install 
-
-
-
 b) Select 'Install' and run through all the defaults - **NOTE:** This can take a long time.
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/62be18be-9920-4069-9189-15700d0a7160)
 
-d) Now download and install 'Homebrew' by clicking this image
+d) Now download Homebrew' by clicking this image
 
 [![image](https://github.com/vitruveo-validators/aws/assets/157662422/91cabd9e-45eb-4153-a000-53de5c9672ba)](https://github.com/Homebrew/brew/releases/download/4.2.6/Homebrew-4.2.6.pkg)
 
-e) Select 'Finder' and then the 'Downloads' directory
+e) Install Azure CLI by running this
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/b57daf84-f64f-44b3-86da-7ae221e3436e)
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/15d0510f-31ef-4e97-8848-ef892458bad4)
+brew update && brew install azure-cli
 
 
+     brew update && brew install azure-cli
 
-f) In your 'Downloads' folder run 'Homebrew-4.2.6.pkg' and select 'Continue', follow all the defaults to install
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/adfc7356-ce81-4ef4-9317-d90e2787877b)
+f) Next download Terraform code by clicking this imagine
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/3bac544f-c0e5-45da-8097-57bb9cf2d26c)
+[![image](https://github.com/vitruveo-validators/azure/assets/157662422/24e60a58-7e02-4759-92cb-7769dc922e24)
+](https://github.com/vitruveo-validators/azure/archive/refs/heads/main.zip)
+
 
 
 **1. Download Terraform Code by click on the image 'Download ZIP'**
 
-[![image](https://github.com/vitruveo-validators/azure/assets/157662422/24e60a58-7e02-4759-92cb-7769dc922e24)
-](https://github.com/vitruveo-validators/azure/archive/refs/heads/main.zip)
+
 
 
 
@@ -79,7 +76,25 @@ c) Run AWSCLIV2.pkg and select 'Continue' selecting all the defaults
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/b00b551e-80d1-412f-bf29-6fa8e351c191)
 
-**2. Authorizing against your AWS account**
+
+e) Select 'Finder' and then the 'Downloads' directory
+
+![image](https://github.com/vitruveo-validators/aws/assets/157662422/b57daf84-f64f-44b3-86da-7ae221e3436e)
+
+![image](https://github.com/vitruveo-validators/aws/assets/157662422/15d0510f-31ef-4e97-8848-ef892458bad4)
+
+
+
+f) In your 'Downloads' folder run 'Homebrew-4.2.6.pkg' and select 'Continue', follow all the defaults to install
+
+![image](https://github.com/vitruveo-validators/aws/assets/157662422/adfc7356-ce81-4ef4-9317-d90e2787877b)
+
+![image](https://github.com/vitruveo-validators/aws/assets/157662422/3bac544f-c0e5-45da-8097-57bb9cf2d26c)
+
+
+
+
+**2. Authorizing against your Azure account**
 
 a) From LaunchPad open Terminal
 
