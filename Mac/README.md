@@ -53,6 +53,8 @@ b) Select 'Install' and run through all the defaults - **NOTE:** This can take a
 
 a) From 'Finder' navigate to the 'Downloads' folder which should look like this
 
+![image](https://github.com/vitruveo-validators/aws/assets/157662422/b57daf84-f64f-44b3-86da-7ae221e3436e)
+
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/4256dc52-f566-4475-995d-f978fa20da66)
 
 
