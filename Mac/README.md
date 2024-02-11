@@ -34,13 +34,6 @@ d) Now download Homebrew' by clicking this image
 
 [![image](https://github.com/vitruveo-validators/aws/assets/157662422/91cabd9e-45eb-4153-a000-53de5c9672ba)](https://github.com/Homebrew/brew/releases/download/4.2.6/Homebrew-4.2.6.pkg)
 
-e) Install Azure CLI by running this
-
-brew update && brew install azure-cli
-
-
-     brew update && brew install azure-cli
-
 
 f) Next download Terraform code by clicking this imagine
 
@@ -49,25 +42,27 @@ f) Next download Terraform code by clicking this imagine
 
 
 
-**1. Download Terraform Code by click on the image 'Download ZIP'**
+**2. Open Downloads folder and install packages**
 
-
-
-
-
-a) Download Terraform by clicking the following image
-
-[![image](https://github.com/vitruveo-validators/aws/assets/157662422/1a290c8d-944e-40cd-ac1c-78ffc34b9899)](https://releases.hashicorp.com/terraform/1.7.1/terraform_1.7.1_darwin_amd64.zip)
-
-
-b) Download AWS CLI by clicking the following image (Mac OS 10.09 + versions supported)
-
-[![image](https://github.com/vitruveo-validators/aws/assets/157662422/2d1bcbb5-e29b-459b-9289-90abd25e5086)](https://awscli.amazonaws.com/AWSCLIV2.pkg)
 
 b) Run 'Finder' and navigate to the 'Downloads' folder which should look like this
 
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/e8d2d0c4-aadc-4bbd-8f60-c870fc600350)
+
+
+
+
+
+e) Install Azure CLI by running this
+
+brew update && brew install azure-cli
+
+
+     brew update && brew install azure-cli
+
+
+
 
 
 
