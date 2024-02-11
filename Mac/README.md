@@ -33,7 +33,7 @@ f) Next download Terraform code by clicking this imagine
 
 **2. Install packages**
 
-a) Run 'Terminal' from LaunchPad and typing **xcode-select --install** and hit enter
+a) Run 'Terminal' from LaunchPad and type **xcode-select --install** and hit enter
 
      xcode-select --install 
 
