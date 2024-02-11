@@ -59,13 +59,6 @@ a) From 'Finder' navigate to the 'Downloads' folder which should look like this
 
 
 
-e) Select 'Finder' and then the 'Downloads' directory
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/b57daf84-f64f-44b3-86da-7ae221e3436e)
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/15d0510f-31ef-4e97-8848-ef892458bad4)
-
-
 
 
 
