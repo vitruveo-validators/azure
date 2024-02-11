@@ -13,7 +13,7 @@
 **$\color{Red}Review\ each\ step\ carefully\ and\ check\ your\ steps\ vs.\ the\ images.\ Don't\ rush.\$**
 
 
-**1. Download needed tools**
+**1. Download tools needed**
 
 d) Download Homebrew' by clicking this image
 
