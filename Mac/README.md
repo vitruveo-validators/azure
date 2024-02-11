@@ -53,6 +53,9 @@ c) Install Azure CLI by typing command **brew update && brew install azure-cli
 
      brew update && brew install azure-cli 
 
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/1a62cfd2-f2f1-4785-ad92-b837a70a44a8)
+
+
 
 a) From 'Finder' navigate to the 'Downloads' folder which should look like this
 
