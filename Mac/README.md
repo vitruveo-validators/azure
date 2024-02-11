@@ -48,7 +48,11 @@ b) Select 'Install' and run through all the defaults - **NOTE:** This can take a
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/d21b0a5b-c9d3-4187-821a-5d9f73c82583)
 
-c)Install HomeBrew 
+c)Install HomeBrew from the 'Downloads' folder
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/d5c56272-6b9b-49e3-974f-1126820fa241)
+
+
 
 a) From 'Finder' navigate to the 'Downloads' folder which should look like this
 
@@ -76,8 +80,6 @@ e) Move Terraform file to /azure-main directory
 
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/f0422e3c-14ab-43e3-94f6-42f92706d655)
-
-
 
 
 
