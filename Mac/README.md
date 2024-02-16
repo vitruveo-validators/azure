@@ -107,7 +107,7 @@ d) Once successful, you should see this windows and it can be closed
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/855051ae-863e-4144-bbf3-567fce775521)
 
 
-e) Once successful move to step 7.
+e) If you get a message about no subscription found - Run the steps from b) > d) again. Once successful move to step 7.
 
 
 **5. **VERY IMPORTANT STEP** - Take your time as it needs to be done correctly**
@@ -127,7 +127,8 @@ b) Copy and paste the following command
     
     az account list-locations --query "sort_by([].{Location:name}, &Location)" -o table
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/2574efc1-a04c-4e9e-a54a-b3bf5644cdd8)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/cf00ecfc-f094-483d-a6a6-b01c86e79c7e)
+
 
 c) Type **Terraform plan** hit enter and add your predetermined region and hit enter again
 
