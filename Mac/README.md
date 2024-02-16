@@ -83,7 +83,8 @@ h) Move Terraform file to /azure-main directory
 
 
 
-**2. Authorizing against your Azure account**
+
+**4. Authorizing against your Azure account**
 
 
 a) Type **cd Downloads** and hit enter
@@ -93,100 +94,99 @@ a) Type **cd Downloads** and hit enter
 
 
 
-**3. VERY IMPORTANT STEP - Take your time as it needs to be done correctly**
+b) Authorize to your Azure account using email and password by typing **az login** and hitting enter
 
-a) Navigate to azure-main folder in the Downloads folder from Finder > click main.tf and select 'TextEdit'
+    az login
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/d22893d3-fef2-48ab-aff3-87dfb110d471)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/bc68e0df-b0b8-49d6-bb74-4692d0e326ce)
 
+c) A web browser should open for you to enter your email account for Azure and password that was created in STEP 1
 
-b) Find resource "aws_key_pair" "validator" like in this image 
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/b60f3466-71cf-466a-b75c-0f7ec8fdd4dc)
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/b5f49c59-cde3-493b-8563-5e04932d8009)
+d) Once successful, you should see this windows and it can be closed
 
-c) Paste in your Public Key copied from STEP 3 **then save and close the main.tf file**
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/cf3ff8bf-94c1-4d81-85b1-dbbaf21ad675)
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/593bdbac-d851-433e-88a5-54361e68febb)
-
-**4. Deploying your Validator to AWS**
-
-a) Go back to 'Terminal' and type **echo $PATH** hit enter and it should show this same path as on the image below
+e) Once successful move to step 7.
 
 
-    echo $PATH 
+**5. **VERY IMPORTANT STEP** - Take your time as it needs to be done correctly**
 
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/a2b4aa9e-62ef-4954-9624-4b47e071a2d9)
+a)  Type **Terraform init** and hit enter - NOTE: This can take a while
+
+    Terraform init
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/36ddbe69-0b85-434f-9924-a55330dc2276)
+
+b) Copy and paste the following command
+
+   NOTE: This command should list all the current Azure Regions around the world. Earlier you picked a region, now from this list copy your region in this format i.e. 
+   Sweden Central = swedencentral NOT sweden. Brazil South = brazilsouth NOT brazil
+    
+    az account list-locations --query "sort_by([].{Location:name}, &Location)" -o table
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/2574efc1-a04c-4e9e-a54a-b3bf5644cdd8)
+
+c) Type **Terraform plan** hit enter and add your predetermined region and hit enter again
+
+    Terraform plan
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/02b8a4c2-f967-4ae6-8ba9-e8a79e5ebcaa)
+
+d) Enter your Azure Virtual machine vm size here. i.e. **Standard_F4s_v2** then hit enter
+
+    Standard_F4s_v2
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/93c03700-9414-42d9-85cc-ffc7ec6283c3)
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/4283a576-3477-420c-aa0e-e925706decd6)
 
 
-b) Now type or copy and paste **sudo mv ~/Downloads/terraform /usr/local/bin/** and hit enter, then enter your password
+**NOTE** if you receive and error about a Region not being supported like "canada" pick another region from the list like "canadacentral"
 
-    sudo mv ~/Downloads/terraform /usr/local/bin/ 
-  
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/ec44f734-84b0-40f1-a3ce-83a1fc111941)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/41c97517-cb79-4178-bf15-a76292f2b98d)
 
 
 
-c) Now change to the 'aws-main' directory by typing **cd aws-main** 
+e) Confirm that Plan: 10 to add, 0 to change, 0 to destroy. is displayed
 
-     cd aws-main
-  
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/ed9f6d42-cc59-46d5-9500-5c293de498f1)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/0c07213b-a8b4-4ccb-ae01-3e8435cb6a2b)
 
+f) Copy **Terraform apply -auto-approve** and hit enter
 
+    Terraform apply -auto-approve
 
-d) Type **Terraform init** and hit enter - NOTE: This might take a while
-
-     Terraform init
-  
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/ec4bc1eb-b187-44c2-89f1-aa71142770dd)
-
-e) Type **Terraform plan** and hit enter making sure it shows 'Plan: 4 to add, 0 to change, 0 to destroy.' as in the following image
-
-     Terraform plan
-  
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/7ea302fb-1fa1-46b4-9cb8-1186b9197d65)
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/c3547fe0-f0d3-47d8-a2cd-c095e11ab173)
-
-f) Type **Terraform apply -auto-approve** - make sure 'Apply complete! Resources: 4 added, 0 changed, 0 destroyed.'
-
-     Terraform apply -auto-approve
-  
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/3011f4c8-1ba6-46b6-abf8-16d3743d1437)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/6f75d613-1bcf-4920-af49-81714aa659c6)
 
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/e8a341f3-d95c-4cc6-8dea-5594e4e4d0c7)
+g) Enter your Azure Virtual machine vm size here. i.e. **Standard_F4s_v2** then hit enter
 
-g) **Close Terminal** 
+    Standard_F4s_v2
 
-**5. Your Validator is deployed to AWS with the following configuration:**
-   - Pre configured Security Group with all required ports
-   - Elastic IP bound to Validator to always keep the same Public IP
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/68f628ba-b819-464c-be6d-01c5ae45274c)
+
+
+f) Make sure 'Apply complete! Resources: 10 added, 0 changed, 0 destroyed.'
+
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/793256ba-6c4f-4cac-8896-9fd8e2e69107)
+
+
+
+
+**6. Your Validator is deployed to Azure with the following configuration:**
+   - Pre configured Network Security Group with all required ports
+   - Static Public IP bound to Validator
    - Key Pair to securely SSH into your Validator when needed
-   - EC2 Instance with 4GB RAM, 4 cores and an 80GB SSD
+   - Azure Ubuntu VM with 4GB RAM, 4 cores and an 80GB SSD
+   - validator.pem file downloaded locally
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/f15f1106-951d-4a44-8152-cee94b2b8353)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/ea822892-cb0e-46bb-9b08-6469e43b685d)
 
 
 
-**6. Deactive the Access Key due to security reasons**
-
-a) Open IAM via the AWS Portal and select 'Users'
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/eed39c70-af13-4647-9af4-4761785a88e5)
-
-b) Select 'Security credentials' 
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/5ce1d616-b415-4d0e-b490-9bbd42589b1d)
-
-c) Under 'Access keys' select the 'Actions' drop-down and select 'Deactive'
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/6e6a2714-9ace-425f-b587-3723bc9796ce)
-
-d) Last step is to click 'Deactive' 
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/e4ca17ec-6918-4514-8669-ed734a441537)
 
 **Next steps in the process is to connect to your newly deployed EC2 instance and install VTRU Validator code**
 
