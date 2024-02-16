@@ -94,7 +94,8 @@ b) Authorize to your Azure account using email and password by typing **az login
 
     az login
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/fa251ba8-4580-4cb5-ad40-f211d4d9e6ef)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/e071a777-5fc4-4d5c-aef2-d0349073e3bf)
+
 
 c) A web browser should open for you to enter your email account for Azure and password that was created in STEP 1
 
@@ -111,14 +112,13 @@ e) Once successful move to step 7.
 
 **5. **VERY IMPORTANT STEP** - Take your time as it needs to be done correctly**
 
-a) 
-
 
 a)  Type **Terraform init** and hit enter - NOTE: This can take a while
 
     Terraform init
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/36ddbe69-0b85-434f-9924-a55330dc2276)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/5b56317e-ea1c-4e7d-802a-29a10c530fec)
+
 
 b) Copy and paste the following command
 
