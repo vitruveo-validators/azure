@@ -99,7 +99,7 @@ b) Type **cd Downloads** and hit enter
 
 **3. VERY IMPORTANT STEP - Take your time as it needs to be done correctly**
 
-a) Navigate to aws-main folder in the Downloads folder from Finder > click main.tf and select 'TextEdit'
+a) Navigate to azure-main folder in the Downloads folder from Finder > click main.tf and select 'TextEdit'
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/d22893d3-fef2-48ab-aff3-87dfb110d471)
 
