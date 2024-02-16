@@ -48,23 +48,22 @@ b) Select 'Install' and run through all the defaults - **NOTE:** This can take a
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/d21b0a5b-c9d3-4187-821a-5d9f73c82583)
 
-c) Install HomeBrew from the 'Downloads' folder
-
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/d5c56272-6b9b-49e3-974f-1126820fa241)
+c) Open 'Finder' and navigate to the 'Downloads' directory
 
 
-
-a) From 'Finder' navigate to the 'Downloads' folder which should look like this
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/b57daf84-f64f-44b3-86da-7ae221e3436e)
+![Screenshot 2024-02-16 165108](https://github.com/vitruveo-validators/azure/assets/157662422/59b19c96-9f49-40f1-bf5b-d80025852971)
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/4256dc52-f566-4475-995d-f978fa20da66)
 
 
 
+d) Install HomeBrew from the 'Downloads' folder
+
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/d5c56272-6b9b-49e3-974f-1126820fa241)
 
 
-d) Install Azure CLI by typing command **brew update && brew install azure-cli**
+
+g) Install Azure CLI by typing command **brew update && brew install azure-cli**
 
 
      brew update && brew install azure-cli 
@@ -73,7 +72,7 @@ d) Install Azure CLI by typing command **brew update && brew install azure-cli**
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/64de2fff-c458-44d4-b32f-95511edac70c)
 
-e) Move Terraform file to /azure-main directory
+h) Move Terraform file to /azure-main directory
 
 
      mv ./Downloads/terraform ./Downloads/azure-main/ 
