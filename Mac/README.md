@@ -82,36 +82,36 @@ h) Move Terraform file to /azure-main directory
 
 
 
-
-
 **4. Authorizing against your Azure account**
 
 
-a) Type **cd Downloads** and hit enter
+a) Type **cd Downloads/azure-main/** and hit enter
 
-     cd Downloads 
-
-
+     cd Downloads/azure-main/ 
 
 
 b) Authorize to your Azure account using email and password by typing **az login** and hitting enter
 
     az login
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/bc68e0df-b0b8-49d6-bb74-4692d0e326ce)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/fa251ba8-4580-4cb5-ad40-f211d4d9e6ef)
 
 c) A web browser should open for you to enter your email account for Azure and password that was created in STEP 1
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/b60f3466-71cf-466a-b75c-0f7ec8fdd4dc)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/dc195203-13ae-41cf-83fa-c1a4331e0d18)
+
 
 d) Once successful, you should see this windows and it can be closed
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/cf3ff8bf-94c1-4d81-85b1-dbbaf21ad675)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/855051ae-863e-4144-bbf3-567fce775521)
+
 
 e) Once successful move to step 7.
 
 
 **5. **VERY IMPORTANT STEP** - Take your time as it needs to be done correctly**
+
+a) 
 
 
 a)  Type **Terraform init** and hit enter - NOTE: This can take a while
