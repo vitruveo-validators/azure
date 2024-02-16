@@ -83,14 +83,10 @@ h) Move Terraform file to /azure-main directory
 
 
 
-
 **2. Authorizing against your Azure account**
 
-a) From LaunchPad open Terminal
 
-
-
-b) Type **cd Downloads** and hit enter
+a) Type **cd Downloads** and hit enter
 
      cd Downloads 
 
