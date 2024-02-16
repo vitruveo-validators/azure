@@ -134,15 +134,17 @@ c) Type **Terraform plan** hit enter and add your predetermined region and hit e
 
     Terraform plan
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/02b8a4c2-f967-4ae6-8ba9-e8a79e5ebcaa)
+![Screenshot 2024-02-16 180917](https://github.com/vitruveo-validators/azure/assets/157662422/54550406-54aa-4ea9-9374-bd3cd524c33e)
+
 
 d) Enter your Azure Virtual machine vm size here. i.e. **Standard_F4s_v2** then hit enter
 
     Standard_F4s_v2
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/f956b417-d55f-4353-8ed1-08acb226d416)
+![Screenshot 2024-02-16 183319](https://github.com/vitruveo-validators/azure/assets/157662422/cdbc6ac2-7823-451d-a68a-5abe4fc8d4ea)
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/7840084e-57ca-417c-a8c8-f53e5cbd0fd3)
+![Screenshot 2024-02-16 180727](https://github.com/vitruveo-validators/azure/assets/157662422/c4322dda-3e79-4cb2-adce-b2d0c96543ef)
+
 
 **NOTE** if you receive and error about a Region not being supported like "canada" pick another region from the list like "canadacentral"
 
