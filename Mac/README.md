@@ -152,7 +152,8 @@ d) Enter your Azure Virtual machine vm size here. i.e. **Standard_F4s_v2** then 
 
 e) Confirm that Plan: 10 to add, 0 to change, 0 to destroy. is displayed
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/0c07213b-a8b4-4ccb-ae01-3e8435cb6a2b)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/7de741b9-3f7c-4e14-abb6-3ec7f69bb1b6)
+
 
 f) Copy **Terraform apply -auto-approve** and hit enter
 
