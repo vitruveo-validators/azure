@@ -1,7 +1,7 @@
 
 ![Screenshot 2024-01-31 202655](https://github.com/vitruveo-validators/aws/assets/157662422/354799ca-27f1-48ec-b68d-258bbd895bfe)
 
-**This document will step you through connecting to your validator installing Vitruveo validator software**
+**This document will step you through connecting to your validator and installing Vitruveo validator software**
 
 1. After deploying your Azure instance successfully review the commands and follow steps.
 
