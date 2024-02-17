@@ -9,20 +9,20 @@
 
 
 
-a) Copy the Mac command
-
+a) Copy the first Mac command to give your account read permissions and remove other users. Security protection.
 
 
      chmod 400 validator.pem 
 
 
-
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/9f4819fc-d47e-4b1d-aaef-5c96b17bb866)
 
-3. Next log onto the AWS Console to retrieve your Private Elastic IP and copy it for the next step
+b) Replace **YOUR-PUBLIC-IP** with your Public IP that is detailed in the output and type yes to the question
 
 
-https://console.aws.amazon.com/
+     ssh -i validator.pem validatoradmin@<YOUR-PUBLIC-IP> 
+
+
 
 a) Search for EC2
 
