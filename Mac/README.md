@@ -191,5 +191,5 @@ f) Make sure 'Apply complete! Resources: 10 added, 0 changed, 0 destroyed.'
 
 
 
-https://github.com/vitruveo-validators/aws/tree/main/Windows/vtru-setup
+https://github.com/vitruveo-validators/azure/tree/main/Windows/vtru-setup
 
