@@ -15,7 +15,8 @@ a) Copy the first Mac command to give your account read permissions and remove o
      chmod 400 validator.pem 
 
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/9f4819fc-d47e-4b1d-aaef-5c96b17bb866)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/7bb8bffd-6007-4f4e-86be-6b209f9044a1)
+
 
 b) Replace **YOUR-PUBLIC-IP** with your Public IP that is detailed in the output and type yes to the question
 
