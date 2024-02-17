@@ -39,7 +39,7 @@ a) You are now logged onto your Azure Validator
 **1. Download the BASH script locally on your Validator**
 
  
-a) Type **wget https://raw.githubusercontent.com/vitruveo-validators/aws/main/Mac/vtru-setup/vtru.sh**
+a) Type **wget https://raw.githubusercontent.com/vitruveo-validators/azure/main/Mac/vtru-setup/vtru.sh**
 
 
      wget https://raw.githubusercontent.com/vitruveo-validators/aws/main/Mac/vtru-setup/vtru.sh
