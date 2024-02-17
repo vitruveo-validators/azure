@@ -27,25 +27,13 @@ b) Replace **YOUR-PUBLIC-IP** with your Public IP that is detailed in the output
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/2b2ac1bc-a54d-4746-b34a-b6a3cc869482)
 
 
-a) Search for EC2
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/28f74f1a-69d0-4470-bebd-fffcd12e4c21)
-
-b) Select 'Elastic IPs"
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/bc18ea66-5186-4f8b-8a63-4b4d7773dfd4)
-
-c) Copy your Allocated IP address
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/e1ea57b8-ba06-4681-a6f9-3ecaf2d134bd)
-
 
 
 d) Now run SSH by typing **ssh -i validator.pem ubuntu@PASTE-YOUR-IP-HERE** and hit enter NOTE:- your IP will be different from image
 
 
-
      ssh -i validator.pem ubuntu@PASTE-YOUR-IP-HERE
+
   
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/75264a08-ce9f-4070-b202-0b7a763aecec)
 
