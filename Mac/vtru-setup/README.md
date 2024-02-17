@@ -47,7 +47,6 @@ e) Type **yes** to the question and type your password for the PEM file
 
 
 
-
 a) You are now logged onto your AWS Validator 
 
 ![image](https://github.com/vitruveo-validators/aws/assets/157662422/62cbcce8-6b20-48cc-9357-f13dc9e5c024)
