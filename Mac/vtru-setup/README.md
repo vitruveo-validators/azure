@@ -23,6 +23,7 @@ b) Replace **YOUR-PUBLIC-IP** with your Public IP that is detailed in the output
 
      ssh -i validator.pem validatoradmin@<YOUR-PUBLIC-IP> 
 
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/2b2ac1bc-a54d-4746-b34a-b6a3cc869482)
 
 
 a) Search for EC2
