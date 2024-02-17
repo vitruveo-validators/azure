@@ -3,16 +3,17 @@
 
 **This document will step you through connecting to your validator installing Vitruveo validator software**
 
-1. Open 'Terminal' via LaunchPad if not already running
+1. After deploying your Azure instance successfully review the commands and follow steps.
 
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/0d291187-86f5-44d8-bc05-e67b44b6781a)
-
-
-a) Change to the 'Downloads' directory by typing **cd Downloads** then hit enter if not already at that directory *if you are in the aws-main directory then type just cd and then cd Downloads*
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/0cdbe80b-b7b7-41ed-9fbc-d981bc79e9d4)
 
 
 
-     cd Downloads 
+a) Copy the Mac command
+
+
+
+     chmod 400 validator.pem 
 
 
 
