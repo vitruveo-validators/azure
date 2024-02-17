@@ -15,7 +15,7 @@
 
 **1. Download tools needed**
 
-d) Download Homebrew' by clicking this image
+d) Download Homebrew by clicking this image
 
 [![image](https://github.com/vitruveo-validators/aws/assets/157662422/91cabd9e-45eb-4153-a000-53de5c9672ba)](https://github.com/Homebrew/brew/releases/download/4.2.6/Homebrew-4.2.6.pkg)
 
