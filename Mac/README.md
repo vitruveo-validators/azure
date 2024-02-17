@@ -174,8 +174,6 @@ f) Make sure 'Apply complete! Resources: 10 added, 0 changed, 0 destroyed.'
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/793256ba-6c4f-4cac-8896-9fd8e2e69107)
 
-W;ax#M7D68Ki;5k+
-
 
 **6. Your Validator is deployed to Azure with the following configuration:**
    - Pre configured Network Security Group with all required ports
