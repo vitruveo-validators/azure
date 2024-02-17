@@ -159,14 +159,14 @@ f) Copy **Terraform apply -auto-approve** and hit enter
 
     Terraform apply -auto-approve
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/6f75d613-1bcf-4920-af49-81714aa659c6)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/0c8ee81b-a87c-43c5-9af7-034f3e34b5f3)
 
 
 g) Enter your Azure Virtual machine vm size here. i.e. **Standard_F4s_v2** then hit enter
 
     Standard_F4s_v2
 
-![image](https://github.com/vitruveo-validators/azure/assets/157662422/68f628ba-b819-464c-be6d-01c5ae45274c)
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/6080fed5-d060-4d1a-80de-658ac3826148)
 
 
 f) Make sure 'Apply complete! Resources: 10 added, 0 changed, 0 destroyed.'
@@ -174,7 +174,7 @@ f) Make sure 'Apply complete! Resources: 10 added, 0 changed, 0 destroyed.'
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/793256ba-6c4f-4cac-8896-9fd8e2e69107)
 
-
+W;ax#M7D68Ki;5k+
 
 
 **6. Your Validator is deployed to Azure with the following configuration:**
