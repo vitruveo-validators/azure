@@ -28,29 +28,9 @@ b) Replace **YOUR-PUBLIC-IP** with your Public IP that is detailed in the output
 
 
 
+a) You are now logged onto your Azure Validator 
 
-d) Now run SSH by typing **ssh -i validator.pem ubuntu@PASTE-YOUR-IP-HERE** and hit enter NOTE:- your IP will be different from image
-
-
-     ssh -i validator.pem ubuntu@PASTE-YOUR-IP-HERE
-
-  
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/75264a08-ce9f-4070-b202-0b7a763aecec)
-
-
-
-e) Type **yes** to the question and type your password for the PEM file
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/e52192a1-1b4a-4212-a3d5-63950f7ca380)
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/5916aba6-73b2-43be-a4a6-33832d9a98c6)
-
-
-
-a) You are now logged onto your AWS Validator 
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/62cbcce8-6b20-48cc-9357-f13dc9e5c024)
-
+![image](https://github.com/vitruveo-validators/azure/assets/157662422/9625703a-454c-45f3-b733-d0fc69618b61)
 
 
 
