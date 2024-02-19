@@ -179,7 +179,7 @@ f) Make sure 'Apply complete! Resources: 10 added, 0 changed, 0 destroyed.'
    - Pre configured Network Security Group with all required ports
    - Static Public IP bound to Validator
    - Key Pair to securely SSH into your Validator when needed
-   - Azure Ubuntu VM with 4GB RAM, 4 cores and an 80GB SSD
+   - Azure Ubuntu VM with 4 vCPUs, 8gb RAM and a 256GB SSD
    - validator.pem file downloaded locally
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/ea822892-cb0e-46bb-9b08-6469e43b685d)
