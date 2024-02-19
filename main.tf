@@ -1,5 +1,5 @@
 # 1. Deploys a Ubuntu 23.10 Validator in Azure runing 4 cores, 8G RAM (Standard_F4s_v2)
-# 2. Increases the single Ubuntu volume to a 80GB Premium SSD disk.
+# 2. Increases the single Ubuntu volume to a 256GB Premium SSD disk.
 # 3. Creates and downloads a Private key (validator.pem) in the folder you ran Terraform from.
 # 4. Deploys a static highly available Public IP in Azure.
 # 5. Creates a vNIC attached to the validator with fast Accelerated networking enabled for better performance.
@@ -167,7 +167,7 @@ admin_ssh_key {
     name                 = "disk-validator"
     caching              = "ReadWrite"
     storage_account_type = "Premium_LRS"
-    disk_size_gb         = "80"
+    disk_size_gb         = "256"
   }
 
   source_image_reference {
