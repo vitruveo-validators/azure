@@ -38,10 +38,4 @@ a) Remove **YOUR-PUBLIC-IP** and add your Public IP that is detailed in the outp
 **NEXT STEPS ARE TO INSTALL THE VALIDATOR CODE FOR YOUR NODE VIA A BASH SCRIPT**
 
 
-**1. Download the BASH script locally on your Validator by typing:-** 
-
-     wget https://raw.githubusercontent.com/vitruveo-validators/azure/main/Windows/vtru-setup/vtru.sh 
-
-**2. Now start the script by typing:-**
-
-     sudo vtru.sh 
+Coming soon...
