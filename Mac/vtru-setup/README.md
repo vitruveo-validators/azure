@@ -36,29 +36,7 @@ a) You are now logged onto your Azure Validator
 
 **NEXT STEPS ARE TO INSTALL THE VALIDATOR CODE FOR YOUR NODE VIA A BASH SCRIPT**
 
-**1. Download the BASH script locally on your Validator**
-
- 
-a) Type **wget https://raw.githubusercontent.com/vitruveo-validators/azure/main/Mac/vtru-setup/vtru.sh?token=GHSAT0AAAAAACN5U4VVVHWPUT7375GVMIMIZOQFR7Q**
-
-
-     wget https://raw.githubusercontent.com/vitruveo-validators/aws/main/Mac/vtru-setup/vtru.sh
-  
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/27e6061b-c057-4eec-9401-2dc272f5e680)
-
-
-
-b) Now start the script by running **sudo bash vtru.sh**
-
-  
-     sudo bash vtru.sh
-
-
-
-![image](https://github.com/vitruveo-validators/aws/assets/157662422/5e0c6736-a021-4b78-9849-c89d7984d33d)
-
-
+Coming soon...
 
 
 
