@@ -6,7 +6,7 @@
 
 **START HERE - prerequisites**
 
-**STEP 1** First create your Azure account - https://portal.azure.com/
+**STEP 1** First create your Azure account - https://azure.microsoft.com/en-us/free
 
 **STEP 2** Second, pick a Region (green dot) from this interactive site - https://datacenters.microsoft.com/globe/explore
 
