@@ -15,16 +15,16 @@
 
 **1. Download tools needed**
 
-d) Download Homebrew by clicking this image
+a) Download Homebrew by clicking this image
 
 [![image](https://github.com/vitruveo-validators/aws/assets/157662422/91cabd9e-45eb-4153-a000-53de5c9672ba)](https://github.com/Homebrew/brew/releases/download/4.2.6/Homebrew-4.2.6.pkg)
 
 
-e) Download Terraform by clicking the following image
+b) Download Terraform by clicking the following image
 
 [![image](https://github.com/vitruveo-validators/aws/assets/157662422/1a290c8d-944e-40cd-ac1c-78ffc34b9899)](https://releases.hashicorp.com/terraform/1.7.1/terraform_1.7.1_darwin_amd64.zip)
 
-f) Next download Terraform code by clicking this imagine
+c) Next download Terraform code by clicking this imagine
 
 [![image](https://github.com/vitruveo-validators/azure/assets/157662422/24e60a58-7e02-4759-92cb-7769dc922e24)
 ](https://github.com/vitruveo-validators/azure/archive/refs/heads/main.zip)
@@ -63,7 +63,7 @@ d) Install HomeBrew from the 'Downloads' folder
 
 
 
-g) Install Azure CLI by typing command **brew update && brew install azure-cli**
+e) Install Azure CLI by typing command **brew update && brew install azure-cli**
 
 
      brew update && brew install azure-cli 
@@ -72,7 +72,7 @@ g) Install Azure CLI by typing command **brew update && brew install azure-cli**
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/64de2fff-c458-44d4-b32f-95511edac70c)
 
-h) Move Terraform file to /azure-main directory
+f) Move Terraform file to /azure-main directory
 
 
      mv ./Downloads/terraform ./Downloads/azure-main/ 
@@ -82,7 +82,7 @@ h) Move Terraform file to /azure-main directory
 
 
 
-**4. Authorizing against your Azure account**
+**3. Authorizing against your Azure account**
 
 
 a) Type **cd Downloads/azure-main/** and hit enter
@@ -110,7 +110,7 @@ d) Once successful, you should see this windows and it can be closed
 e) If you get a message about no subscription found - Run the steps from b) > d) again. Once successful move to step 7.
 
 
-**5. **VERY IMPORTANT STEP** - Take your time as it needs to be done correctly**
+**4. **VERY IMPORTANT STEP** - Take your time as it needs to be done correctly**
 
 
 a)  Type **Terraform init** and hit enter - NOTE: This can take a while
@@ -169,13 +169,13 @@ g) Enter your Azure Virtual machine vm size here. i.e. **Standard_F4s_v2** then 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/6080fed5-d060-4d1a-80de-658ac3826148)
 
 
-f) Make sure 'Apply complete! Resources: 10 added, 0 changed, 0 destroyed.'
+h) Make sure 'Apply complete! Resources: 10 added, 0 changed, 0 destroyed.'
 
 
 ![image](https://github.com/vitruveo-validators/azure/assets/157662422/de624493-10c5-4009-ad8a-72c26c3ad959)
 
 
-**6. Your Validator is deployed to Azure with the following configuration:**
+**5. Your Validator is deployed to Azure with the following configuration:**
    - Pre configured Network Security Group with all required ports
    - Static Public IP bound to Validator
    - Key Pair to securely SSH into your Validator when needed
