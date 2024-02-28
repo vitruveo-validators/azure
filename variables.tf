@@ -12,5 +12,5 @@ variable "resource_group_name_prefix" {
 
 variable "vm_size" {
   type        = string
-  description = "Select the size of your Validator - i.e. Standard_F4s_v2 which is a 4 core, 8g RAM costing $123/month"
+  description = "Select the size of your Validator - i.e. Standard_F4s_v2 which is a 4 core, 8g RAM costing $123/month | NOTE: The 256gb disk and future backups will costs an additional $60+/m"
 }
