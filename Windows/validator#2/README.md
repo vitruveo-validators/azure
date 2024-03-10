@@ -4,16 +4,11 @@
 
 
 
-**START HERE - prerequisites**
+**START HERE**
 
-**STEP 1** First create your Azure account - https://azure.microsoft.com/en-us/free
+**STEP 1** These steps are for your second Validator only if you used Terraform to deploy your first Validator
 
-**STEP 2** Second, pick a Region (green dot) from this interactive site - https://datacenters.microsoft.com/globe/explore
-
-**STEP 3** Third, pick a virtual machine size or use the suggestion in this guide - https://learn.microsoft.com/en-us/azure/virtual-machines/sizes
-
-**STEP 4** Follow this document on a Windows 10 or Windows 11 with all updates installed and as a local Administrator 
-
+**STEP 2** Follow this document on a Windows 10 or Windows 11 with all updates installed and as a local Administrator
 
 
 **$\color{Red}Review\ each\ step\ carefully\ and\ check\ your\ steps\ vs.\ the\ images.\ Don't\ rush.\$**
