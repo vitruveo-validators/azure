@@ -34,10 +34,14 @@ a) You are now logged onto your Azure Validator
 
 
 
-**NEXT STEPS ARE TO INSTALL THE VALIDATOR CODE FOR YOUR NODE VIA A BASH SCRIPT**
 
-Coming soon...
 
+**NEXT STEPS ARE TO INSTALL THE VALIDATOR CODE**
+
+
+Once in the VOP channel follow the pinned message 
+
+**START YOUR ONBOARDING JOURNEY IN ⁠Validator onboarding guides**
 
 
 
