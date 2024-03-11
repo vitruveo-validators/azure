@@ -35,7 +35,9 @@ a) Remove **YOUR-PUBLIC-IP** and add your Public IP that is detailed in the outp
 
 
 
-**NEXT STEPS ARE TO INSTALL THE VALIDATOR CODE FOR YOUR NODE VIA A BASH SCRIPT**
+**NEXT STEPS ARE TO INSTALL THE VALIDATOR CODE**
 
 
-Coming soon...
+Once in the VOP channel follow the pinned message 
+
+**START YOUR ONBOARDING JOURNEY IN ⁠Validator onboarding guides**
