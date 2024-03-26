@@ -1,6 +1,6 @@
 variable "resource_group_location" {
   type        = string
-  description = "Which Azure Region will you deploy to? i.e. eastus or swedencentral. Run a command found in the documentation to discovery Azure region values."
+  description = "Which Azure Region will you deploy to? i.e. eastus or swedencentral. It needs to be the same region as validator and validator2."
 }
 
 variable "resource_group_name_prefix" {
@@ -16,5 +16,5 @@ variable "vm_size" {
 
 variable "name" {
   type        = string
-  description = "Select your validator name - i.e. validator2 - NOT validator"
+  description = "Select your validator name - i.e. validator3 - NOT validator1 or validator2"
 }
