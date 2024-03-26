@@ -16,5 +16,5 @@ variable "vm_size" {
 
 variable "name" {
   type        = string
-  description = "Select your validator name - i.e. validator3 - NOT validator1 or validator2"
+  description = "Select your validator name - i.e. validator3 - NOT validator or validator2"
 }
