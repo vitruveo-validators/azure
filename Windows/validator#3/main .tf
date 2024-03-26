@@ -46,7 +46,7 @@ data "azurerm_subnet" "validator_subnet" {
 }
 
 resource "azurerm_public_ip" "validator_public_ip" {
-  name                = "pip-validator2"
+  name                = "pip-validator3"
   location            = var.resource_group_location
   resource_group_name = "rg-validator"
   allocation_method   = "Static"
@@ -55,7 +55,7 @@ resource "azurerm_public_ip" "validator_public_ip" {
 }
 
 resource "azurerm_network_security_group" "validator_nsg" {
-  name                = "nsg-validator2"
+  name                = "nsg-validator3"
   location            = var.resource_group_location
   resource_group_name = "rg-validator"
 
@@ -117,13 +117,13 @@ resource "azurerm_network_security_group" "validator_nsg" {
 }
 
 resource "azurerm_network_interface" "validator_nic" {
-  name                = "nic-validator2"
+  name                = "nic-validator3"
   location            = var.resource_group_location
   resource_group_name = "rg-validator"
   enable_accelerated_networking = "true"
 
   ip_configuration {
-    name                          = "nic-validator2"
+    name                          = "nic-validator3"
     subnet_id                     = data.azurerm_subnet.validator_subnet.id
     private_ip_address_allocation = "Dynamic"
     public_ip_address_id          = azurerm_public_ip.validator_public_ip.id
@@ -142,7 +142,7 @@ resource "azurerm_linux_virtual_machine" "validator_vm" {
   network_interface_ids  = [azurerm_network_interface.validator_nic.id]
   size                   = var.vm_size
   admin_username         = "validatoradmin"
-  computer_name          = "validator2"
+  computer_name          = "validator3"
   secure_boot_enabled    = "true"
 
 admin_ssh_key {
@@ -151,7 +151,7 @@ admin_ssh_key {
   }
 
   os_disk {
-    name                 = "disk-validator2"
+    name                 = "disk-validator3"
     caching              = "ReadWrite"
     storage_account_type = "Premium_LRS"
     disk_size_gb         = "256"
@@ -172,7 +172,7 @@ resource "tls_private_key" "validator_key" {
 }
 
 resource "local_file" "validator_key"{
-   filename="validator2.pem"
+   filename="validator3.pem"
    content=tls_private_key.validator_key.private_key_pem
 }           
 
