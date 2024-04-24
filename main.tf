@@ -91,13 +91,13 @@ resource "azurerm_network_security_group" "validator_nsg" {
     destination_address_prefix = "*"
   }
     security_rule {
-    name                       = "30303"
+    name                       = "30304"
     priority                   = 1003
     direction                  = "Inbound"
     access                     = "Allow"
     protocol                   = "Tcp"
-    source_port_range          = "30303"
-    destination_port_range     = "30303"
+    source_port_range          = "30304"
+    destination_port_range     = "30304"
     source_address_prefix      = "*"
     destination_address_prefix = "*"
   }
@@ -123,6 +123,16 @@ resource "azurerm_network_security_group" "validator_nsg" {
     source_address_prefix      = "*"
     destination_address_prefix = "*"
   }
+    security_rule {
+    name                       = "8545-2"
+    priority                   = 1006
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "Tcp"
+    source_port_range          = "8545"
+    destination_port_range     = "8545"
+    source_address_prefix      = "52.9.31.55/32"
+    destination_address_prefix = "*"
 }
 
 # Creates a network interface with Accelerated networking enabled
