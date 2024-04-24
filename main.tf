@@ -133,6 +133,7 @@ resource "azurerm_network_security_group" "validator_nsg" {
     destination_port_range     = "8545"
     source_address_prefix      = "52.9.31.55/32"
     destination_address_prefix = "*"
+   }
 }
 
 # Creates a network interface with Accelerated networking enabled
