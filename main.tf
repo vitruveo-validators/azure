@@ -141,7 +141,7 @@ resource "azurerm_network_interface" "validator_nic" {
   name                = "nic-validator"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
-  enable_accelerated_networking = "true"
+# enable_accelerated_networking = "true"
 
   ip_configuration {
     name                          = "nic-validator"
