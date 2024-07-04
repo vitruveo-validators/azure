@@ -1,0 +1,104 @@
+Run this long automated command:
+
+sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && wget https://go.dev/dl/go1.19.3.linux-amd64.tar.gz && sudo tar -xvzf go1.19.3.linux-amd64.tar.gz -C /usr/local/ && nano ~/.profile && export PATH=$PATH:/usr/local/go/bin && sudo apt-get install gcc -y && sudo apt-get install make -y && sudo apt install git && git clone https://github.com/Vitruveo/vitruveo-protocol.git
+
+If a PINK screen shows up, press TAB for <Ok> and press ENTER
+ 
+
+
+
+When you get prompted with profile page, use down arrow key to navigate to the line AFTER LAST GREEN fi, copy and paste following line:
+export PATH=$PATH:/usr/local/go/bin
+
+Press CTRL and X together, then press Y and ENTER	
+
+If a PINK screen shows up, press TAB for <Ok> and press ENTER
+
+
+
+
+After script is completed and you’re back to command line, run sudo reboot to reboot your server (it will loose connection)
+Give it 30 seconds to reboot system and then log back into server
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+
+VERY IMPORTANT STEP, PLEASE TAKE YOUR TIME TO REVIEW THE INFORMATION BEFORE EXECUTING IT !!
+ASK IF YOU’RE NOT CONFIDENT WHAT TO DO !
+
+cd vitruveo-protocol/ && make geth && cd .. && mkdir node && cd node && ../vitruveo-protocol/build/bin/geth --datadir "./data" account new
+
+Create a Password
+Password will not show on screen. This is called blind typing. You won't see what you are typing, this is completely normal.
+
+COPY PASTE THESE TWO LINES FROM SERVER to your notes and take a screenshot
+Public address of the key: (also referred as EOA address)
+Path of the secret key file:
+
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+
+nano password.txt
+type in your password you created in last step
+
+Press CTRL and X together, then press Y and ENTER
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+
+nano info.txt
+copy and paste information from same lines few steps above:
+Public address of the key:
+Path of the secret key file:
+
+Press CTRL and X together, then press Y and ENTER
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+
+nano vitruveo.json
+copy and paste all the text from mainnet-vitruveo.json file from VOP room guides
+(remember to include the brackets from top and bottom)
+
+Press CTRL and X together, then press Y and ENTER
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+
+Run this long automated command:
+
+../vitruveo-protocol/build/bin/geth --datadir ./data/ init ./vitruveo.json && cd data && sudo rm -r geth && sudo apt install unzip && wget https://vitruveo-protocol.s3.amazonaws.com/Vitruveo_Checkpoint_20240408.zip && unzip Vitruveo_Checkpoint_20240408.zip && sudo rm Vitruveo_Checkpoint_20240408.zip && cd && cd vitruveo-protocol && git pull && make geth && cd && cd node
+ 
+Remember to copy/paste everything including the .. (dotdot) from the start
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+
+Add node software generated “Public address of the key” to this Geth service command in 2 different places.
+(Make sure there is 1 empty space before and after the address)
+
+Press ENTER once to execute the command and then press ENTER again to get back to the command line.
+
+nohup ../vitruveo-protocol/build/bin/geth --networkid 1490 --datadir ./data/ --port 30304 --ipcdisable --syncmode full --allow-insecure-unlock --unlock PUBLIC_ADDRESS_KEY_HERE --password ./password.txt --mine --http.api personal,admin,db,eth,net,web3,miner,shh,txpool,debug,clique --gcmode=archive --bootnodes enode://8a82fd5e140b75207d814ca4a7570dfd99aa53942730f36547c4d79dd603dc67e7aef118b86a4206e253f18cd8a82927cfe0796f24c179bd9bac2c321492df18@52.9.172.122:30304,enode://190535138e656a0db94ed015345cc31993ea6a9917b48e2fdaf1b9448dd6b78e6c19be666a5f44e1af7b9377aec60cd1a7882b24ab0226753a2ceb5ecb14417b@52.9.95.170:30304 --miner.gasprice 4000000000 --http --http.port 8545 --http.addr 127.0.0.1 --miner.etherbase PUBLIC_ADDRESS_KEY_HERE &
+
+
+
+
+tail -f nohup.out
+Let it run for a minute for the process to begin and the server starts to sync to the network.
+
+Press CTRL and C together to exit back to command line
+
+
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+
+
+To enter Geth JavaScript console, run command:
+../vitruveo-protocol/build/bin/geth attach http://localhost:8545
